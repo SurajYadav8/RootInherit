@@ -51,7 +51,7 @@ export default function Header() {
                 <span className="text-white font-bold">CI</span>
               </motion.div>
               <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-blue-500">
-                CryptoInherit
+                RootInherit
               </span>
             </Link>
           </div>
