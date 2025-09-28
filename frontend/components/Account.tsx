@@ -5,8 +5,8 @@ export function Account() {
   const { address } = useAccount()
   const { disconnect } = useDisconnect()
   const { data: ensName } = useEnsName({ address })
-  const { data: ensAvatar } = useEnsAvatar({ name: ensName! })
-
+  const { data: ensAvatar } = useEnsAvatar({ name: ensName! });
+  console.log("address", address );
   return (
     <div>
       {ensAvatar && <img alt="ENS Avatar" src={ensAvatar} />}
